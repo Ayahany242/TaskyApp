@@ -7,28 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		037D3FE92BD31EC900219CD0 /* InProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037D3FE82BD31EC900219CD0 /* InProgressViewController.m */; };
+		038F94E42BD3239C00AB99EB /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038F94E32BD3239C00AB99EB /* AddTaskViewController.m */; };
+		038F94ED2BD3394F00AB99EB /* TaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 038F94EC2BD3394F00AB99EB /* TaskModel.m */; };
+		03995BA32BD46F730066898C /* UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 03995BA22BD46F730066898C /* UserDefaults.m */; };
+		039CAD072BD370410067F232 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039CAD062BD370410067F232 /* DetailsViewController.m */; };
 		03A5278C2BD30FB100873244 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5278B2BD30FB100873244 /* AppDelegate.m */; };
 		03A5278F2BD30FB100873244 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5278E2BD30FB100873244 /* SceneDelegate.m */; };
-		03A527922BD30FB100873244 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A527912BD30FB100873244 /* ViewController.m */; };
+		03A527922BD30FB100873244 /* DoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A527912BD30FB100873244 /* DoneViewController.m */; };
 		03A527952BD30FB100873244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A527932BD30FB100873244 /* Main.storyboard */; };
 		03A527972BD30FB400873244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A527962BD30FB400873244 /* Assets.xcassets */; };
 		03A5279A2BD30FB400873244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A527982BD30FB400873244 /* LaunchScreen.storyboard */; };
 		03A5279D2BD30FB400873244 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5279C2BD30FB400873244 /* main.m */; };
+		03A527A52BD3146800873244 /* ToDoTasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A527A42BD3146800873244 /* ToDoTasksViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		037D3FE72BD31EC900219CD0 /* InProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InProgressViewController.h; sourceTree = "<group>"; };
+		037D3FE82BD31EC900219CD0 /* InProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InProgressViewController.m; sourceTree = "<group>"; };
+		038F94E22BD3239C00AB99EB /* AddTaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTaskViewController.h; sourceTree = "<group>"; };
+		038F94E32BD3239C00AB99EB /* AddTaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
+		038F94EB2BD3394F00AB99EB /* TaskModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskModel.h; sourceTree = "<group>"; };
+		038F94EC2BD3394F00AB99EB /* TaskModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskModel.m; sourceTree = "<group>"; };
+		038F94EE2BD342FE00AB99EB /* DelegationNavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegationNavigation.h; sourceTree = "<group>"; };
+		03995BA12BD46F730066898C /* UserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
+		03995BA22BD46F730066898C /* UserDefaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDefaults.m; sourceTree = "<group>"; };
+		039CAD052BD370410067F232 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		039CAD062BD370410067F232 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		03A527872BD30FB100873244 /* Taskie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taskie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A5278A2BD30FB100873244 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03A5278B2BD30FB100873244 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		03A5278D2BD30FB100873244 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		03A5278E2BD30FB100873244 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		03A527902BD30FB100873244 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		03A527912BD30FB100873244 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03A527902BD30FB100873244 /* DoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneViewController.h; sourceTree = "<group>"; };
+		03A527912BD30FB100873244 /* DoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneViewController.m; sourceTree = "<group>"; };
 		03A527942BD30FB100873244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03A527962BD30FB400873244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03A527992BD30FB400873244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03A5279B2BD30FB400873244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03A5279C2BD30FB400873244 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03A527A32BD3146800873244 /* ToDoTasksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoTasksViewController.h; sourceTree = "<group>"; };
+		03A527A42BD3146800873244 /* ToDoTasksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoTasksViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +84,26 @@
 				03A5278B2BD30FB100873244 /* AppDelegate.m */,
 				03A5278D2BD30FB100873244 /* SceneDelegate.h */,
 				03A5278E2BD30FB100873244 /* SceneDelegate.m */,
-				03A527902BD30FB100873244 /* ViewController.h */,
-				03A527912BD30FB100873244 /* ViewController.m */,
+				03A527902BD30FB100873244 /* DoneViewController.h */,
+				03A527912BD30FB100873244 /* DoneViewController.m */,
 				03A527932BD30FB100873244 /* Main.storyboard */,
 				03A527962BD30FB400873244 /* Assets.xcassets */,
 				03A527982BD30FB400873244 /* LaunchScreen.storyboard */,
 				03A5279B2BD30FB400873244 /* Info.plist */,
 				03A5279C2BD30FB400873244 /* main.m */,
+				03A527A32BD3146800873244 /* ToDoTasksViewController.h */,
+				03A527A42BD3146800873244 /* ToDoTasksViewController.m */,
+				037D3FE72BD31EC900219CD0 /* InProgressViewController.h */,
+				037D3FE82BD31EC900219CD0 /* InProgressViewController.m */,
+				038F94E22BD3239C00AB99EB /* AddTaskViewController.h */,
+				038F94E32BD3239C00AB99EB /* AddTaskViewController.m */,
+				038F94EB2BD3394F00AB99EB /* TaskModel.h */,
+				038F94EC2BD3394F00AB99EB /* TaskModel.m */,
+				038F94EE2BD342FE00AB99EB /* DelegationNavigation.h */,
+				039CAD052BD370410067F232 /* DetailsViewController.h */,
+				039CAD062BD370410067F232 /* DetailsViewController.m */,
+				03995BA12BD46F730066898C /* UserDefaults.h */,
+				03995BA22BD46F730066898C /* UserDefaults.m */,
 			);
 			path = Taskie;
 			sourceTree = "<group>";
@@ -146,9 +178,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03A527922BD30FB100873244 /* ViewController.m in Sources */,
+				038F94E42BD3239C00AB99EB /* AddTaskViewController.m in Sources */,
+				03A527922BD30FB100873244 /* DoneViewController.m in Sources */,
+				038F94ED2BD3394F00AB99EB /* TaskModel.m in Sources */,
 				03A5278C2BD30FB100873244 /* AppDelegate.m in Sources */,
+				037D3FE92BD31EC900219CD0 /* InProgressViewController.m in Sources */,
 				03A5279D2BD30FB400873244 /* main.m in Sources */,
+				03995BA32BD46F730066898C /* UserDefaults.m in Sources */,
+				039CAD072BD370410067F232 /* DetailsViewController.m in Sources */,
+				03A527A52BD3146800873244 /* ToDoTasksViewController.m in Sources */,
 				03A5278F2BD30FB100873244 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,11 +332,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Taskie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Tasky;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,11 +360,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Taskie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Tasky;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
